@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "browser-sync start --server --files='src/*.html, src/partials/*.html, src/css/main.css, src/js/*.js' --startPath src/index.html",
-    "sass": "node-sass src/scss/main.scss src/css/main.css",
-    "sass:watch": "node-sass src/scss/main.scss src/css/main.css --watch src/scss/*.scss",
+    "start": "browser-sync start --server --files='*.html, partials/*.html, css/main.css, js/*.js' --startPath index.html",
+    "sass": "node-sass scss/main.scss css/main.css",
+    "sass:watch": "node-sass scss/main.scss css/main.css --watch scss/*.scss",
     "install:bower": "bower install --save",
-    "postinstall:bower": "wiredep --src 'src/*.html'",
+    "postinstall:bower": "wiredep --src '*.html'",
     "postinstall": "bower install"
   },
   "repository": {
