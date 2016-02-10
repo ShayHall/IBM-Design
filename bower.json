@@ -1,0 +1,25 @@
+{
+  "name": "ibm-design",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Shay Hall <hallshay@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ShayHall/IBM-Design",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3",
+    "modernizr": "~3.3.1",
+    "jquery": "~2.2.0",
+    "angular": "~1.5.0",
+    "angular-route": "~1.5.0"
+  }
+}

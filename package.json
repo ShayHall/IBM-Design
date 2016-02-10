@@ -1,0 +1,31 @@
+{
+  "name": "ibm-design",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files='src/*.html, src/partials/*.html, src/css/main.css, src/js/*.js' --startPath src/index.html",
+    "sass": "node-sass src/scss/main.scss src/css/main.css",
+    "sass:watch": "node-sass src/scss/main.scss src/css/main.css --watch src/scss/*.scss",
+    "install:bower": "bower install --save",
+    "postinstall:bower": "wiredep --src 'src/*.html'",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShayHall/IBM-Design.git"
+  },
+  "author": "Shay Hall <hallshay@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShayHall/IBM-Design/issues"
+  },
+  "homepage": "https://github.com/ShayHall/IBM-Design#readme",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "browser-sync": "^2.11.1",
+    "node-sass": "^3.4.2",
+    "wiredep": "^3.0.0"
+  }
+}

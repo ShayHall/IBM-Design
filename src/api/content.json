@@ -1,0 +1,9 @@
+{ "hero_title": "Jabberwocky",
+  "paragraph_1": ["Twas brillig, and the slithy toves,", "Did gyre and gimble in the wabe:", "All mimsy were the borogoves,", "And the mome raths outgrabe."],
+  "paragraph_2": ["Beware the Jabberwock, my son!", "The jaws that bite, the claws that catch!", "Beware the Jubjub bird, and shun", "The frumious Bandersnatch!"],
+  "paragraph_3": ["He took his vorpal sword in hand:", "Long time the manxome foe he sought --", "So rested he by the Tumtum tree,", "And stood awhile in thought."],
+  "paragraph_4": ["And, as in uffish thought he stood,", "The Jabberwock, with eyes of flame,", "Came whiffling through the tulgey wood,", "And burbled as it came!"],
+  "paragraph_5": ["One, two! One, two! And through and through", "The vorpal blade went snicker-snack!", "He left it dead, and with its head", "He went galumphing back."],
+  "paragraph_6": ["And, has thou slain the Jabberwock?", "Come to my arms, my beamish boy!", "O frabjous day! Callooh! Callay!'", "He chortled in his joy."],
+  "sidebar_links": [{"title":"Lewis Carroll", "link":"https://en.wikipedia.org/wiki/Lewis_Carroll"}, {"title":"Who made this webpage?", "link":"http://shayhall.github.io/"}, {"title": "IBM Design", "link":"http://www.ibm.com/design/"}]
+}

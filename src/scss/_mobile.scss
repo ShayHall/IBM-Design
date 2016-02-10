@@ -1,0 +1,202 @@
+body {
+//header
+.top-nav {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1ex 0 0;//CHANGED
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+  h4 {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;//CHANGED desk
+    text-align: center;//CHANGED desk
+    font-weight: 600;
+    line-height: 0;//CHANGED desk
+    span {
+      font-weight: 100;
+    }
+  }
+  .menu {
+    box-sizing: border-box;
+    ul {
+      width: 100%;//CHANGED tab
+      padding: 1.5ex 0 0;//CHANGED desk
+      li {
+        box-sizing: border-box;
+        display: block;
+        float: left;
+        width: 100%*(1/3);//CHANGED desk
+        list-style: none;
+        text-align: center;
+       a[href] {
+          text-decoration: none;
+          &:focus {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }//END menu
+}//END header
+
+//hero
+.hero-image {
+  box-sizing: border-box;
+  margin-top: 15ex;//CHANGED tab
+  padding-top: 4.5ex;//CHANGED tab
+  padding-bottom: 7ex;//CHANGED desk
+  background: url("https://farm2.staticflickr.com/1537/24758317592_12bc04824f.jpg") center no-repeat;
+  background-width: 100vw;//CHANGED tab
+  h1 {
+    margin: 0;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #4178be;
+    font-size: 3em;
+  }
+  p {
+    box-sizing: border-box;
+    width: 80%;//CHANGED tab
+    margin: 1.5ex 10% 2ex;//CHANGED tab
+    padding: 1ex;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  div {
+    text-align: center;
+    margin:0;
+    margin-top: 5ex;
+    a[href].button{
+      position: static;
+      text-align: center;
+      text-decoration: none;
+      height: 400px;
+      width: 480px;
+      top: 50%;
+      left: 50%;
+      margin: 0 auto;
+      padding: 1.75ex 1.75em;//CHANGED tab
+      font-weight: bold;
+      color: #000;
+      background: #fff;
+      border: 1px solid #333;
+    }
+  }
+}//END hero
+
+//triple image
+.triple-image {
+  padding: 6ex 10vw 0;//CHANGED desk
+  div {
+    box-sizing: border-box;
+    padding: 0 0 2ex;//CHANGED
+    p {
+      padding: 2ex 2em;
+      background-color: rgba(90, 170, 250, 0.4);
+    }
+  }
+  img {
+    width: 80vw;//CHANGED desk
+    padding: 0 0 3ex;//CHANGED desk
+  }
+}//END triple-image
+
+//bottom
+.bottom {
+  background-color: #1d3649;
+//sidebar
+  .sidebar {
+    box-sizing: border-box;
+    padding: 1.5ex 0;
+    li {
+      list-style: none;
+      padding: 1.5ex 0;//CHANGED tab desk
+    }
+    a[href]{
+      text-decoration: none;
+      color: #e9e0e0;
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+  }//END sidebar
+
+//header
+  .header {
+    box-sizing: border-box;
+    padding: 2ex 10vw 8ex;//CHANGED tab desk
+    background-color: #e9e0e0;
+    h2 {
+      padding-bottom: 2ex;
+      line-height: 0;//CHANGED
+      font-weight: 400;
+      font-size: 2em;
+    }
+    div {
+      padding-top: 3ex;
+      text-align: left;
+      a[href]{
+      position: static;
+      text-align: center;
+      text-decoration: none;
+      height: 400px;
+      width: 480px;
+      top: 50%;
+      left: 50%;
+      margin: 0 auto;
+      padding: 2ex 2em;
+      font-weight: bold;
+      color: #000;
+      background-color: #fde876;
+      border: 1px solid #333;
+      }
+    }
+  }//END header
+}//END bottom
+
+//footer
+  footer {
+    background-color: #504646;
+    padding: 3ex 0;//CHANGED desk
+    .footer-links {
+      box-sizing: border-box;
+      padding-left: 0;
+      list-style: none;
+      li {
+        display: block;
+        float: left;
+        width: 100%*(1/3);//CHANGED
+        font-size: 1.2em;//CHANGED
+        list-style: none;
+        text-align: center;
+        a[href] {
+          text-decoration: none;
+          color: #e9e0e0;
+          &:focus, &:active {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .footer-icons {
+      box-sizing: border-box;
+      width: 100%*(2/3);//CHANGED
+      margin: 10ex 0 0 100%*(1/6);//CHANGED tab
+      display: flex;
+      justify-content: space-around;
+      img {
+        background-color: #e9e0e0;
+        padding: 16px;
+        margin: 100%*(1/24);//CHANGED tab
+        &:hover, &:active {
+          background-color: #4178be;
+        }
+      }
+    }
+  }//END footer
+}//END body
