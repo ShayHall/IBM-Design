@@ -3,7 +3,7 @@
 angular.module('designChallenge', [])
   .controller('mainCtrl', function($scope, $http){
 
-    $http.get("https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=1a8a3d3424a47f34d738bf49f89d1014&extras=url_k&per_page=50&page=1&format=json&nojsoncallback=1&auth_token=72157663798098539-18f7e453b9b5f684&api_sig=50abe2c9b6ca7b316762730762e1fbaa")
+    $http.get("https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=251dd3199e1c26579ed4de4a7ce80264&extras=url_k&per_page=50&page=1&format=json&nojsoncallback=1&auth_token=72157662203740493-9423643cbe220e79&api_sig=8ef829c06713b1219b218f1256ce2915")
     .then(function(data){
       $scope.photos = data.data.photos.photo;
     })
